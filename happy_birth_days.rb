@@ -1,9 +1,12 @@
-require './line_notify'
-
 class HappyBirthDays
-  @queue = :hbd
+  @queue = :low
 
   def self.perform(wish)
-    LineNotify.notify(message: wish)
+    # document: https://notify-bot.line.me/doc/en/
+    LineNotify.notify(
+      message: wish,
+      stickerPackageId: 4,
+      stickerId: 307,
+    )
   end
 end

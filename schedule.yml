@@ -1,7 +1,7 @@
 happy_birth_day_manocha:
-	class: 'HappyBirthDays'
-	args: 'แฮปปี้เบิร์ทเดย์จ้าม้าโนชาา'
-	cron: '* * * * * Asia/Bangkok'
+  class: 'HappyBirthDays'
+  args: ['แฮปปี้เบิร์ทเดย์จ้าม้าโนชาา']
+  cron: '* * * * * Asia/Bangkok'
 
 # 			 * * * * *
 # 			 - - - - -
