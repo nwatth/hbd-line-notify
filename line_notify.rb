@@ -2,9 +2,11 @@ require 'net/http'
 
 module LineNotify
   def self.notify(data)
-    @api ||= Api.new(ENV["LINE_NOTIFY_TOKEN"])
+    api.notify(data)
+  end
 
-    @api.notify(data)
+  def self.api
+    @api ||= Api.new(ENV["LINE_NOTIFY_TOKEN"])
   end
 
   class Api

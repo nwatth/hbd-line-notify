@@ -1,7 +1,56 @@
+# Pah Mai - 01 Jan
+happy_birth_day_pah_mai:
+  class: 'HappyBirthDays'
+  args: ['สวัสดีป้าใหม่ในวันปีใหม่ เนื่องในวันป้าใหม่ขอให้ปีใหม่มีแต่ป้าใหม่ สวัสดีจ้า', { stickerPackageId: 3, stickerId: 251 }]
+  cron: '0 0 1 1 * Asia/Bangkok'
+
+# M - 27 Feb
+happy_birth_day_m:
+  class: 'HappyBirthDays'
+  args: ['HBD Pagud สวัสดีวันเกิด เกิดแล้วเกิดอีก สวัสดีดี', { stickerPackageId: 3, stickerId: 254 }]
+  cron: '0 0 27 2 * Asia/Bangkok'
+
+# Kartoon - 03 Jun
+happy_birth_day_kartoon:
+  class: 'HappyBirthDays'
+  args: ['สุขสันตืวันเกิดจ้ะหนูแคร์ทูน ขอให้มีความสุข สมหวัง ในทุกๆเรื่องนะจ๊ะ', { stickerPackageId: 3, stickerId: 257 }]
+  cron: '0 0 * * * Asia/Bangkok'
+
+# Prakhan - 20 Jun
+happy_birth_day_prakhan:
+  class: 'HappyBirthDays'
+  args: ['สุขสันต์วันเกิดคุณประคัลภ์ ขอให้มีความสุขสวัสดีมั่งมีศรีสุข ไม่ทุกข์ กุ๊กๆ สวัสดีสวัสดี', { stickerPackageId: 3, stickerId: 195 }]
+  cron: '0 0 20 6 * Asia/Bangkok'
+
+# Night - 06 Aug
+happy_birth_day_night:
+  class: 'HappyBirthDays'
+  args: ['HBD Pong PU ขอให้มีความสุขสมหวังตลอดปีตลอดไป สุขใจสุขกาย คิดถึงจุ้บๆๆ', { stickerPackageId: 3, stickerId: 210 }]
+  cron: '0 0 6 8 * Asia/Bangkok'
+
+# Oil - 15 Aug
+happy_birth_day_oil:
+  class: 'HappyBirthDays'
+  args: ['สุขสันตืวันเกิดจ้าน้องออย ขอให้มีความสุขมากๆ สวยๆรวยๆ อ้วนไปพร้อมๆกันเลยจ้า', { stickerPackageId: 4, stickerId: 307 }]
+  cron: '0 0 15 8 * Asia/Bangkok'
+
+# Mini - 14 Sep
+happy_birth_day_mini:
+  class: 'HappyBirthDays'
+  args: ['สุขสันต์วันเกิดพี่หมี ขอให้สวยๆรวยๆน่ารักกลม ตลอดไปเลยจ้า', { stickerPackageId: 3, stickerId: 256 }]
+  cron: '0 0 14 9 * Asia/Bangkok'
+
+# Manocha - 14 Nov
 happy_birth_day_manocha:
   class: 'HappyBirthDays'
-  args: ['แฮปปี้เบิร์ทเดย์จ้าม้าโนชาา']
-  cron: '* * * * * Asia/Bangkok'
+  args: ['สุขสันต์วันเกิดม้าโนวชา ขอให้สุงยาวเข่าดี วิ่งแข่งกับรถแท็กซี่ไปนานๆจ้า', { stickerPackageId: 3, stickerId: 182 }]
+  cron: '0 0 14 11 * Asia/Bangkok'
+
+# test
+happy_birth_day_test:
+  class: 'HappyBirthDays'
+  args: ['TEST', { stickerPackageId: 1, stickerId: 113 }]
+  cron: '0 * * * * Asia/Bangkok'
 
 # 			 * * * * *
 # 			 - - - - -
