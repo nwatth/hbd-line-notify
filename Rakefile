@@ -14,6 +14,10 @@ namespace :resque do
   task :setup do
     require 'resque'
 
+    p '===== REDIS URL ====='
+    p ENV["REDIS_URL"]
+    p '====================='
+
     # you probably already have this somewhere
     Resque.redis = ENV["REDIS_URL"]
   end
