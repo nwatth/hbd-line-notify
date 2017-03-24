@@ -7,15 +7,8 @@ require './line_notify'
 require './happy_birth_days'
 
 # Resque Tasks
-require 'resque/server'
 require 'resque/tasks'
 require 'resque/scheduler/tasks'
-require 'resque_scheduler/server'
-
-ENV["RAILS_RESQUE_REDIS"] = ENV["REDIS_URL"]
-
-run Rack::URLMap.new \
-  "/" => Resque::Server.new
 
 namespace :resque do
   task :setup do
