@@ -12,6 +12,8 @@ require 'resque/tasks'
 require 'resque/scheduler/tasks'
 require 'resque_scheduler/server'
 
+ENV["RAILS_RESQUE_REDIS"] = ENV["REDIS_URL"]
+
 run Rack::URLMap.new \
   "/" => Resque::Server.new
 
