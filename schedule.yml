@@ -46,12 +46,6 @@ happy_birth_day_manocha:
   args: ['สุขสันต์วันเกิดม้าโนวชา ขอให้สุงยาวเข่าดี วิ่งแข่งกับรถแท็กซี่ไปนานๆจ้า', { stickerPackageId: 3, stickerId: 182 }]
   cron: '0 0 14 11 * Asia/Bangkok'
 
-# test
-happy_birth_day_test:
-  class: 'HappyBirthDays'
-  args: ['TEST', { stickerPackageId: 1, stickerId: 113 }]
-  cron: '* * * * * Asia/Bangkok'
-
 # 			 * * * * *
 # 			 - - - - -
 # 			 | | | | |
