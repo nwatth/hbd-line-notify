@@ -44,3 +44,4 @@ module LineNotify
     end
   end
 end
+
