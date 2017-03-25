@@ -14,7 +14,7 @@ happy_birth_day_m:
 happy_birth_day_kartoon:
   class: 'HappyBirthDays'
   args: ['สุขสันตืวันเกิดจ้ะหนูแคร์ทูน ขอให้มีความสุข สมหวัง ในทุกๆเรื่องนะจ๊ะ', { stickerPackageId: 3, stickerId: 257 }]
-  cron: '0 0 * * * Asia/Bangkok'
+  cron: '0 0 3 6 * Asia/Bangkok'
 
 # Prakhan - 20 Jun
 happy_birth_day_prakhan:
