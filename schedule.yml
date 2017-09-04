@@ -34,11 +34,11 @@ happy_birth_day_oil:
   args: ['สุขสันตืวันเกิดจ้าน้องออย ขอให้มีความสุขมากๆ สวยๆรวยๆ อ้วนไปพร้อมๆกันเลยจ้า', { stickerPackageId: 4, stickerId: 307 }]
   cron: '0 0 15 8 * Asia/Bangkok'
 
-# Mini - 14 Sep
+# Mini - 4 Sep
 happy_birth_day_mini:
   class: 'HappyBirthDays'
   args: ['สุขสันต์วันเกิดพี่หมี ขอให้สวยๆรวยๆน่ารักกลม ตลอดไปเลยจ้า', { stickerPackageId: 3, stickerId: 256 }]
-  cron: '0 0 14 9 * Asia/Bangkok'
+  cron: '0 0 4 9 * Asia/Bangkok'
 
 # Manocha - 14 Nov
 happy_birth_day_manocha:
@@ -46,12 +46,12 @@ happy_birth_day_manocha:
   args: ['สุขสันต์วันเกิดม้าโนวชา ขอให้สุงยาวเข่าดี วิ่งแข่งกับรถแท็กซี่ไปนานๆจ้า', { stickerPackageId: 3, stickerId: 182 }]
   cron: '0 0 14 11 * Asia/Bangkok'
 
-# 			 * * * * *
-# 			 - - - - -
-# 			 | | | | |
-# 			 | | | | ----- Day of week (0 - 7) (Sunday=0 or 7)
-# 			 | | | ------- Month (1 - 12)
-# 			 | | --------- Day of month (1 - 31)
-# 			 | ----------- Hour (0 - 23)
-# 			 ------------- Minute (0 - 59)
+#        * * * * *
+#        - - - - -
+#        | | | | |
+#        | | | | ----- Day of week (0 - 7) (Sunday=0 or 7)
+#        | | | ------- Month (1 - 12)
+#        | | --------- Day of month (1 - 31)
+#        | ----------- Hour (0 - 23)
+#        ------------- Minute (0 - 59)
 
