@@ -10,6 +10,12 @@ happy_birth_day_m:
   args: ['HBD Pagud สวัสดีวันเกิด เกิดแล้วเกิดอีก สวัสดีดี', { stickerPackageId: 3, stickerId: 254 }]
   cron: '0 0 27 2 * Asia/Bangkok'
 
+# Gigs - 5 May
+happy_birth_day_gigs:
+  class: 'HappyBirthDays'
+  args: ['สุขสันต์วันเกิดชุติมา ขอให้มีความสุขกับทุกเรื่องนะ', { stickerPackageId: 3, stickerId: 212 }]
+  cron: '0 0 5 5 * Asia/Bangkok'
+
 # Kartoon - 03 Jun
 happy_birth_day_kartoon:
   class: 'HappyBirthDays'
@@ -40,12 +46,6 @@ happy_birth_day_mini:
   args: ['สุขสันต์วันเกิดพี่หมี ขอให้สวยๆรวยๆน่ารักกลม ตลอดไปเลยจ้า', { stickerPackageId: 3, stickerId: 256 }]
   cron: '0 0 4 9 * Asia/Bangkok'
   
-# Puwadon - 18 Sep
-happy_birth_day_puwadon:
-  class: 'HappyBirthDays'
-  args: ['สุขสันต์วันเกิดลูกพี่ ขอให้รวยๆ ตลอดไปเลยจ้า', { stickerPackageId: 3, stickerId: 256 }]
-  cron: '0 0 18 9 * Asia/Bangkok'
-
 # Manocha - 14 Nov
 happy_birth_day_manocha:
   class: 'HappyBirthDays'
