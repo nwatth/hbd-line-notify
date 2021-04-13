@@ -1,0 +1,27 @@
+# Toeiie - 6 Jun
+happy_birth_day_toeiie:
+  class: 'HappyBirthDays'
+  args: ['', { stickerPackageId: 1070, stickerId: 17843 }]
+  cron: '0 0 6 6 * Asia/Bangkok'
+
+# Yong - 16 Sep
+happy_birth_day_yong:
+  class: 'HappyBirthDays'
+  args: ['', { stickerPackageId: 1070, stickerId: 17842 }]
+  cron: '0 0 16 9 * Asia/Bangkok'
+
+# Maggy - 20 Oct
+happy_birth_day_maggy:
+  class: 'HappyBirthDays'
+  args: ['', { stickerPackageId: 1070, stickerId: 17841 }]
+  cron: '0 0 20 10 * Asia/Bangkok'
+
+#        * * * * *
+#        - - - - -
+#        | | | | |
+#        | | | | ----- Day of week (0 - 7) (Sunday=0 or 7)
+#        | | | ------- Month (1 - 12)
+#        | | --------- Day of month (1 - 31)
+#        | ----------- Hour (0 - 23)
+#        ------------- Minute (0 - 59)
+
